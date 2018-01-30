@@ -19,7 +19,7 @@ $fab-list-margin:                       10px !default;
 $fab-list-button-background-color:      #f4f4f4 !default;
 
 
-.fab {
+.ion-fab {
   @include text-align(center);
   @include appearance(none);
   @include border-radius(50%);
@@ -47,7 +47,7 @@ $fab-list-button-background-color:      #f4f4f4 !default;
   contain: strict;
 }
 
-.fab ion-icon {
+.ion-fab ion-icon {
   flex: 1;
 
   font-size: 2.4rem;
@@ -56,7 +56,7 @@ $fab-list-button-background-color:      #f4f4f4 !default;
 // FAB mini
 // --------------------------------------------------
 
-.fab[mini] {
+.ion-fab[mini] {
   @include margin(($fab-size - $fab-mini-size) / 2);
 
   width: $fab-mini-size;
@@ -65,7 +65,7 @@ $fab-list-button-background-color:      #f4f4f4 !default;
   line-height: $fab-mini-size;
 }
 
-.fab[mini] .fab-close-icon {
+.ion-fab[mini] .fab-close-icon {
   line-height: $fab-mini-size;
 }
 
@@ -220,7 +220,7 @@ ion-fab-list[side=right] {
   transition-property: transform, opacity;
 }
 
-.fab .button-inner {
+.ion-fab .button-inner {
   transition: all ease-in-out 300ms;
   transition-property: transform, opacity;
 }

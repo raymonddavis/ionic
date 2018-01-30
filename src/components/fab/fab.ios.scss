@@ -31,12 +31,12 @@ $fab-ios-list-button-transition-timing-function:  ease !default;
 $fab-ios-list-button-transition-delay:            10ms !default;
 
 
-.fab-ios {
+.ion-fab-ios {
   color: $fab-ios-text-color;
   background-color: $fab-ios-background-color;
 }
 
-.fab-ios.activated {
+.ion-fab-ios.activated {
   background-color: $fab-ios-background-color-activated;
 }
 
@@ -62,12 +62,12 @@ $fab-ios-list-button-transition-delay:            10ms !default;
   $bg-color-activated: color-shade($bg-color);
   $fg-color: $color-contrast;
 
-  .fab-ios-#{$color-name} {
+  .ion-fab-ios-#{$color-name} {
     color: $fg-color;
     background-color: $bg-color;
   }
 
-  .fab-ios-#{$color-name}.activated {
+  .ion-fab-ios-#{$color-name}.activated {
     background-color: $bg-color-activated;
   }
 }

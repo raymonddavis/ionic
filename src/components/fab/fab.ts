@@ -66,7 +66,7 @@ export class FabButton extends Ion {
     elementRef: ElementRef,
     renderer: Renderer,
   ) {
-    super(config, elementRef, renderer, 'fab');
+    super(config, elementRef, renderer, 'ion-fab');
   }
 
   /**
